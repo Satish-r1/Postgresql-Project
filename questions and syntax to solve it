@@ -1,0 +1,6 @@
+Q1) who is the senior most employee based on the job title ?
+select first_name, last_name, levels,title from employee
+order by levels desc
+limit 1
+
+Q2) 
